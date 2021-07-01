@@ -4,12 +4,19 @@
   "description": "AWS CloudWatchLogs の LogGroup の保持期間を一括で設定するスクリプト",
   "main": "index.js",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "exec": "ts-node index.ts"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@types/prompts": "^2.0.13",
     "aws-sdk": "^2.937.0",
+    "prompts": "^2.4.1",
+    "ts-node": "^10.0.0",
     "typescript": "^4.3.5"
+  },
+  "devDependencies": {
+    "@types/node": "^15.12.5"
   }
 }
