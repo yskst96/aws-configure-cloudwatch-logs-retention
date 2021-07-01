@@ -1,0 +1,15 @@
+{
+  "name": "aws-configure-cloudwatch-logs-retention",
+  "version": "1.0.0",
+  "description": "AWS CloudWatchLogs の LogGroup の保持期間を一括で設定するスクリプト",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.937.0",
+    "typescript": "^4.3.5"
+  }
+}
